@@ -358,7 +358,7 @@ input::placeholder {
   border-radius: 16px;
   box-sizing: border-box;
   background: white;
-  /* margin: 2vw 0vw 2vw 2vw; */
+  margin: 2vw 0vw 2vw 1.1vw;
   border: 1px solid #dadada;
 }
 .box-4 img {
@@ -379,7 +379,7 @@ input::placeholder {
   border-radius: 16px;
   box-sizing: border-box;
   background: white;
-  /* margin: 2vw 0vw 2vw 2vw; */
+  margin: 2vw 0vw 2vw 2vw;
   border: 1px solid #dadada;
 }
 .box-5 img {
@@ -400,7 +400,7 @@ input::placeholder {
   border-radius: 16px;
   box-sizing: border-box;
   background: white;
-  /* margin: 2vw 0vw 2vw 0vw; */
+  margin: 2vw 0vw 2vw 2vw;
   border: 1px solid #dadada;
 }
 .box-6 img {
