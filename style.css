@@ -591,6 +591,7 @@ input::placeholder {
   border: none;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  outline: none;
 }
 .box-10 p {
   font-weight: lighter;
@@ -614,4 +615,125 @@ input::placeholder {
 .box-10 button:hover {
   background-color: crimson;
   cursor: pointer;
+}
+#sixth-para-start {
+  height: 30%;
+  width: 43%;
+  justify-content: start;
+  text-align: start;
+  border: 1px solid #dadada;
+  border-radius: 0.8vw;
+  margin-top: -12vw;
+  padding: 2vw;
+}
+#sixth-para-start img {
+  height: 5.8vw;
+  width: 5.3vw;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.95;
+}
+#sixth-para-start h3 {
+  margin-left: 6.2vw;
+  margin-top: -4.8vw;
+}
+#sixth-para-start .stars {
+  margin-left: 6vw;
+}
+#sixth-para-start .grey {
+  color: grey;
+  font-size: 1.4vw;
+  margin-top: 4vw;
+  margin-left: 1.2vw;
+  margin-bottom: 0.8vw;
+}
+#sixth-para-start a {
+  text-decoration: none;
+  color: red;
+  margin-left: 1.2vw;
+}
+#seventh-para-start {
+  height: 150%;
+}
+#seventh-para-start p {
+  margin-top: 5.5vw;
+  font-size: 3.5vw;
+  color: rgb(60, 58, 58);
+}
+#card-3 {
+  height: 39vw;
+  display: flex;
+  margin-bottom: 2vw;
+  border: none;
+  outline: none;
+  /* margin: 2vw 2vw 3vw 2vw; */
+}
+.box-11 {
+  /* height: 12vw; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: white;
+  margin: 2vw 3vw 2vw 0vw;
+  border: 1px solid #dadada;
+  cursor: pointer;
+  text-align: start;
+}
+.box-11 h2 {
+  font-size: 1.8vw;
+  margin-top: 7vw;
+  margin-bottom: 2vw;
+  color: black;
+  margin-left: 0.8vw;
+}
+.box-11 img {
+  height: 15vw;
+  width: 27vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: none;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.box-11 a {
+  text-decoration: none;
+  color: red;
+  margin-bottom: 5vw;
+  text-align: start;
+  margin-left: 0.8vw;
+
+}
+
+.box-12 {
+  /* height: 12vw; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: white;
+  margin: 2vw 3vw 2vw 0vw;
+  border: 1px solid #dadada;
+  cursor: pointer;
+  text-align: start;
+}
+.box-12 h2 {
+  font-size: 1.8vw;
+  margin-top: 7vw;
+  margin-bottom: 2vw;
+  color: black;
+  margin-left: 0.8vw;
+}
+.box-12 img {
+  height: 15vw;
+  width: 27vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: none;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.box-12 a {
+  text-decoration: none;
+  color: red;
+  margin-bottom: 5vw;
+  text-align: start;
+  margin-left: 0.8vw;
+
 }
