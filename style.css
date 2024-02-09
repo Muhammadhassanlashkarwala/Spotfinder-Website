@@ -653,7 +653,7 @@ input::placeholder {
   margin-left: 1.2vw;
 }
 #seventh-para-start {
-  height: 150%;
+  height: 100%;
 }
 #seventh-para-start p {
   margin-top: 5.5vw;
@@ -788,4 +788,45 @@ input::placeholder {
   margin-bottom: 5vw;
   text-align: start;
   margin-left: 0.8vw;
+}
+
+#eight-para-start {
+  height: 83%;
+  width: 99.9%;
+  margin-top: 2vw;
+  border-radius: 1vw;
+  background-image: url(images/box-2.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#eight-para-start h1{
+  font-size: 5vw;
+  color: white;
+  padding-top: 12vw;
+}
+#eight-para-start p{
+  font-size: 2vw;
+  padding-top: 2vw;
+  color: white;
+}
+#eight-para-start button {
+  background: crimson;
+  color: white;
+  width: 20vw;
+  height: 6vw;
+  border-radius: 13vw;
+  border: none;
+  outline: none;
+  margin-top: 3vw;
+  font-size: 1.9vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+#eight-para-start button:hover {
+  background-color:  rgb(255, 5, 5);
+  cursor: pointer;
+}
+#nine-para-start{
+  height: 100%;
 }
