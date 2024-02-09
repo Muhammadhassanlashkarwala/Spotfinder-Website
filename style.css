@@ -800,18 +800,19 @@ input::placeholder {
   background-size: cover;
   background-position: center;
 }
-#eight-para-start h1{
+#eight-para-start h1 {
   font-size: 5vw;
   color: white;
   padding-top: 12vw;
 }
-#eight-para-start p{
+#eight-para-start p {
   font-size: 2vw;
   padding-top: 2vw;
   color: white;
 }
 #eight-para-start button {
-  background: crimson;
+  background: rgb(255, 5, 5);
+  /* opacity: 0.7; */
   color: white;
   width: 20vw;
   height: 6vw;
@@ -824,9 +825,47 @@ input::placeholder {
   margin-bottom: 2vw;
 }
 #eight-para-start button:hover {
-  background-color:  rgb(255, 5, 5);
+  background-color: crimson;
   cursor: pointer;
 }
-#nine-para-start{
-  height: 100%;
+#nine-para-start {
+  height: 40%;
+  background: aliceblue;
+  width: 99.9%;
+}
+#nine-para-start h1 {
+  margin-top: 1vw;
+  padding-top: 3vw;
+  margin-right: 10vw;
+  margin-bottom: 2vw;
+}
+#nine-para-start p {
+  color: grey;
+  margin-right: 0.3vw;
+  margin-bottom: 2vw;
+}
+#nine-para-start input {
+  /* width: 23vw ; */
+  margin-left: 4vw;
+  height: 4vw;
+  border: 1px solid #dadada;
+  border-radius: 0.6vw;
+  border-top-right-radius: 0vw;
+  border-bottom-right-radius: 0vw;
+}
+input::placeholder {
+  color: grey;
+  padding-left: 1vw;
+}
+#nine-para-start button{
+  height: 4vw;
+  width: 9vw;
+  border: 1px solid #dadada;
+  border-radius: 0.6vw;
+  border-top-left-radius: 0vw;
+  border-bottom-left-radius: 0vw;
+  background: rgb(255, 5, 5);
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
 }
