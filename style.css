@@ -657,8 +657,21 @@ input::placeholder {
 }
 #seventh-para-start p {
   margin-top: 5.5vw;
-  font-size: 3.5vw;
+  font-size: 3.8vw;
+  margin-bottom: 5vw;
   color: rgb(60, 58, 58);
+}
+.space-between h3 {
+  color: rgb(90, 87, 87);
+  font: lighter;
+  font-size: 1.7vw;
+  text-align: start;
+  margin-left: 0.6vw;
+  margin-bottom: -2vw;
+}
+.space-between a {
+  color: red;
+  margin-left: 82vw;
 }
 #card-3 {
   height: 39vw;
@@ -679,10 +692,10 @@ input::placeholder {
   text-align: start;
 }
 .box-11 h2 {
+  color: rgb(60, 58, 58);
   font-size: 1.8vw;
   margin-top: 7vw;
   margin-bottom: 2vw;
-  color: black;
   margin-left: 0.8vw;
 }
 .box-11 img {
@@ -700,7 +713,6 @@ input::placeholder {
   margin-bottom: 5vw;
   text-align: start;
   margin-left: 0.8vw;
-
 }
 
 .box-12 {
@@ -715,9 +727,9 @@ input::placeholder {
 }
 .box-12 h2 {
   font-size: 1.8vw;
+  color: rgb(60, 58, 58);
   margin-top: 7vw;
   margin-bottom: 2vw;
-  color: black;
   margin-left: 0.8vw;
 }
 .box-12 img {
@@ -735,5 +747,45 @@ input::placeholder {
   margin-bottom: 5vw;
   text-align: start;
   margin-left: 0.8vw;
+}
+.box-13 {
+  /* height: 12vw; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: white;
+  margin: 2vw 3vw 2vw 0vw;
+  border: 1px solid #dadada;
+  cursor: pointer;
+  text-align: start;
+}
+.box-13 h2 {
+  font-size: 1.8vw;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+  color: rgb(60, 58, 58);
+  margin-left: 0.8vw;
+}
 
+.box-13 img {
+  height: 15vw;
+  width: 27vw;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: none;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.box-13 h3 {
+  font-size: 1.4vw;
+  color: grey;
+  font-weight: lighter;
+  margin-left: 0.8vw;
+  margin-bottom: 0.8vw;
+}
+.box-13 a {
+  text-decoration: none;
+  color: red;
+  margin-bottom: 5vw;
+  text-align: start;
+  margin-left: 0.8vw;
 }
