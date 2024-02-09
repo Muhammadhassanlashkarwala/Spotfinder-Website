@@ -869,3 +869,12 @@ input::placeholder {
   opacity: 0.7;
   cursor: pointer;
 }
+.line{
+  margin-top: -1.2vw;
+  color: red;
+  font-weight: bolder;
+}
+#last-card{
+  height: 100%;
+
+}
