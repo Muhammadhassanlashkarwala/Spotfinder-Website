@@ -857,7 +857,7 @@ input::placeholder {
   color: grey;
   padding-left: 1vw;
 }
-#nine-para-start button{
+#nine-para-start button {
   height: 4vw;
   width: 9vw;
   border: 1px solid #dadada;
@@ -869,12 +869,95 @@ input::placeholder {
   opacity: 0.7;
   cursor: pointer;
 }
-.line{
+.line {
   margin-top: -1.2vw;
   color: red;
   font-weight: bolder;
 }
-#last-card{
-  height: 100%;
-
+#last-card {
+  height: 40%;
+  display: flex;
+  justify-content: start;
+  border-bottom: 0.2vw solid #928e8e;
+  text-align: justify;
+  /* border: none; */
+}
+#last-card h2 {
+  color: red;
+  margin-top: 3vw;
+  font-size: 1.4vw;
+  /* margin-right: 2vw; */
+  margin-left: 3vw;
+  margin-bottom: 4vw;
+}
+#last-card p {
+  margin-left: 3vw;
+  color: #928e8e;
+  font-size: 1.5vw;
+}
+.box-17 {
+  margin-left: 3vw;
+}
+.box-16 p {
+  cursor: pointer;
+}
+.box-17 .grey {
+  cursor: pointer;
+}
+.box-17 i {
+  cursor: pointer;
+}
+#last-card .grey {
+  color: #928e8e;
+  text-align: center;
+  margin-left: 0.2vw;
+}
+#last-card i {
+  color: #928e8e;
+  margin-left: 3vw;
+}
+#last-card .box-18 {
+  margin-left: 7vw;
+}
+.box-18 button {
+  border: none;
+  outline: blue;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 0.3vw;
+  font-size: 0.8vw;
+  background: white;
+  padding-left: 1vw;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  margin-top: 1vw;
+  margin-bottom: 1.5vw;
+  /* margin-left: 0.4vw; */
+}
+.box-18 h2 span {
+  margin-right: 2vw;
+}
+.box-18 i {
+  cursor: pointer;
+}
+button .blue {
+  font-weight: bolder;
+  color: blue;
+  font-size: 0.9vw;
+}
+#last-card span i {
+  color: red;
+}
+.box-18 a {
+  color: red;
+  text-decoration: none;
+  font-size: 1vw;
+  padding-left: 1vw;
+}
+footer {
+  height: 7%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.3vw;
+  color: grey;
 }
