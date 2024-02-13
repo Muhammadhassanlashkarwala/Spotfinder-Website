@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
   font-family: sans-serif;
 }
 html,
@@ -968,4 +969,18 @@ footer {
   font-size: 1.3vw;
   color: grey;
 }
-
+ @media (max-width:450px) {
+  .nav{
+ width:100% ;
+ display: flex;
+ align-items: center;
+  }
+  .nav-part-2{
+    display: none;
+  }
+  .nav-part-3{
+    display: flex;
+    align-items: center
+    \;
+  }
+ }
