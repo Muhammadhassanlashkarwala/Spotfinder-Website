@@ -978,9 +978,20 @@ footer {
   .nav-part-2{
     display: none;
   }
+  .nav-part-3 .register{
+    display: none;
+  }
+  #Second-para-start{
+    display: flex;
+    justify-content: center;
+  }
+
+  .para-2 .hero-png{
+    display: none;
+  }
   .nav-part-3{
     display: flex;
     align-items: center
-    \;
+    ;
   }
  }
